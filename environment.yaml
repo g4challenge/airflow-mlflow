@@ -1,4 +1,4 @@
-name: toxic-comment-classifier
+name: mlflowenv
 channels:
   - conda-forge
 dependencies:

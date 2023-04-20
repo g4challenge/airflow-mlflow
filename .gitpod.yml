@@ -15,7 +15,7 @@ tasks:
       conda init bash
 
       # Create a new environment with the packages you need
-      conda create -n myenv python=3.8 pandas scikit-learn
+      conda env create -f environment.yml
 
       # Activate the environment
-      conda activate myenv
+      conda activate mlflowenv
