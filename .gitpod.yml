@@ -16,7 +16,7 @@ tasks:
 
     init: |
       # Create a new environment with the packages you need
-      conda env create -f environment.yaml --yes
+      conda create -f environment.yaml -y
 
       # Activate the environment
       conda activate mlflowenv
