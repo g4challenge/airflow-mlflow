@@ -14,8 +14,10 @@ tasks:
       # Initialize conda
       conda init bash
 
+      exec bash
+
       # Create a new environment with the packages you need
-      conda env create -f environment.yml
+      conda env create -f environment.yaml
 
       # Activate the environment
       conda activate mlflowenv
