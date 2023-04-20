@@ -21,3 +21,4 @@ tasks:
 
       # Activate the environment
       conda activate mlflowenv
+      pip install -r requirements.txt
