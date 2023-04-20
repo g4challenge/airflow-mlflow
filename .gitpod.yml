@@ -17,7 +17,7 @@ tasks:
       exec bash
 
       # Create a new environment with the packages you need
-      conda env create -f environment.yaml
+      conda env create -f environment.yaml --yes
 
       # Activate the environment
       conda activate mlflowenv
