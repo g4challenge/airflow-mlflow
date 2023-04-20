@@ -15,8 +15,6 @@ tasks:
       conda init bash
 
     init: |
-      exec bash
-
       # Create a new environment with the packages you need
       conda env create -f environment.yaml --yes
 
