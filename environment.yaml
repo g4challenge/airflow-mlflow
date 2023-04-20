@@ -1,0 +1,11 @@
+name: toxic-comment-classifier
+channels:
+  - conda-forge
+dependencies:
+  - python=3.8
+  - pandas
+  - scikit-learn
+  - gensim
+  - nltk
+  - mlflow
+  - bentoml
